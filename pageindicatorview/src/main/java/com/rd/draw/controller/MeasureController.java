@@ -40,7 +40,7 @@ public class MeasureController {
 
             int paddingSum = padding * (count - 1);
             int w = diameterSum + strokeSum + paddingSum;
-            int h = circleDiameterPx + stroke;
+            int h = circleDiameterPx + strokeSum;
 
             if (orientation == Orientation.HORIZONTAL) {
                 desiredWidth = w;
